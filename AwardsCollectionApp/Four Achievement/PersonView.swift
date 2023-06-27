@@ -139,7 +139,7 @@ struct PersonView: View {
 struct PersonView_Previews: PreviewProvider {
     static var previews: some View {
         PersonView()
-            .frame(width: 600, height: 600)
+            .frame(width: 200, height: 200)
     }
 }
 

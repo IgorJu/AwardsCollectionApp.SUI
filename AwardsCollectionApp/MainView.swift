@@ -23,8 +23,8 @@ struct MainView: View {
             Spacer()
             
             if awardIsShowing {
-                GradientRectangles()
-                    .frame(width: 250, height: 250)
+                FourthAchieveView()
+                    .frame(width: 400, height: 400)
                     .transition(.customTransition)
             }
             
@@ -43,11 +43,11 @@ struct MainView: View {
 
 extension AnyTransition {
     static var customTransition: AnyTransition {
-        let insertion = AnyTransition.move(edge: .leading)
-            .combined(with: .scale)
-        let removal = AnyTransition.move(edge: .trailing)
-            .combined(with: .scale)
+        let insertion = AnyTransition.opacity
+        let removal = AnyTransition.push(from: .top)
+        
         return .asymmetric(insertion: insertion, removal: removal)
+        
     }
 }
 

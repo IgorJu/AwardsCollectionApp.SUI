@@ -74,7 +74,7 @@ struct FourthAchieveView: View {
     struct FourthAchieveView_Previews: PreviewProvider {
         static var previews: some View {
             FourthAchieveView()
-                .frame(width: 600, height: 600)
+                .frame(width: 200, height: 200)
         }
     }
 

@@ -19,10 +19,10 @@ struct CircleAndTriangle: View {
             Path { path in
                 path.addEllipse(
                     in: CGRect(
-                        x: middle / 2,
-                        y: middle * 0.45,
-                        width: width,
-                        height: height
+                        x:  middle * 0.3,
+                        y: middle * 0.3,
+                        width: width * 0.7,
+                        height: height * 0.7
                     )
                 )
             }
@@ -47,10 +47,10 @@ struct CircleAndTriangle: View {
             Path { path in
                 path.addEllipse(
                     in: CGRect(
-                        x: middle / 2,
-                        y: middle * 0.45,
-                        width: width / 2,
-                        height: height / 2
+                        x: middle * 0.3 ,
+                        y: middle * 0.3,
+                        width: width * 0.7,
+                        height: height * 0.7
                     )
                 )
             }
