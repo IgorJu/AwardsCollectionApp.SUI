@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		78160BD92A49F8A700C08769 /* FourthAchieveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78160BD82A49F8A700C08769 /* FourthAchieveView.swift */; };
 		7827B95E2A4A1E3400C99603 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827B95D2A4A1E3400C99603 /* PersonView.swift */; };
+		7850E1BB2A4AF6FE00E7A650 /* ChakraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7850E1BA2A4AF6FE00E7A650 /* ChakraView.swift */; };
+		7850E1C12A4B0FE700E7A650 /* ChakrasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7850E1C02A4B0FE700E7A650 /* ChakrasView.swift */; };
+		7850E1C32A4B127E00E7A650 /* CircleAndTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7850E1C22A4B127E00E7A650 /* CircleAndTriangle.swift */; };
+		7850E1C62A4B1ECB00E7A650 /* FingersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7850E1C52A4B1ECB00E7A650 /* FingersView.swift */; };
 		A89D0931267B76D400C1FB66 /* AwardsCollectionAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D0930267B76D400C1FB66 /* AwardsCollectionAppApp.swift */; };
 		A89D0933267B76D400C1FB66 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D0932267B76D400C1FB66 /* MainView.swift */; };
 		A89D0935267B76D600C1FB66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A89D0934267B76D600C1FB66 /* Assets.xcassets */; };
@@ -24,6 +28,10 @@
 /* Begin PBXFileReference section */
 		78160BD82A49F8A700C08769 /* FourthAchieveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthAchieveView.swift; sourceTree = "<group>"; };
 		7827B95D2A4A1E3400C99603 /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		7850E1BA2A4AF6FE00E7A650 /* ChakraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChakraView.swift; sourceTree = "<group>"; };
+		7850E1C02A4B0FE700E7A650 /* ChakrasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChakrasView.swift; sourceTree = "<group>"; };
+		7850E1C22A4B127E00E7A650 /* CircleAndTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAndTriangle.swift; sourceTree = "<group>"; };
+		7850E1C52A4B1ECB00E7A650 /* FingersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingersView.swift; sourceTree = "<group>"; };
 		A89D092D267B76D400C1FB66 /* AwardsCollectionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwardsCollectionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89D0930267B76D400C1FB66 /* AwardsCollectionAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsCollectionAppApp.swift; sourceTree = "<group>"; };
 		A89D0932267B76D400C1FB66 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -49,6 +57,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7850E1C42A4B196300E7A650 /* Four Achievement */ = {
+			isa = PBXGroup;
+			children = (
+				7827B95D2A4A1E3400C99603 /* PersonView.swift */,
+				7850E1C52A4B1ECB00E7A650 /* FingersView.swift */,
+				7850E1C02A4B0FE700E7A650 /* ChakrasView.swift */,
+				7850E1C22A4B127E00E7A650 /* CircleAndTriangle.swift */,
+				7850E1BA2A4AF6FE00E7A650 /* ChakraView.swift */,
+				78160BD82A49F8A700C08769 /* FourthAchieveView.swift */,
+			);
+			path = "Four Achievement";
+			sourceTree = "<group>";
+		};
 		A89D0924267B76D400C1FB66 = {
 			isa = PBXGroup;
 			children = (
@@ -70,14 +91,13 @@
 			children = (
 				A89D0930267B76D400C1FB66 /* AwardsCollectionAppApp.swift */,
 				A89D093F267B777E00C1FB66 /* StarterView.swift */,
-				7827B95D2A4A1E3400C99603 /* PersonView.swift */,
 				A89D0932267B76D400C1FB66 /* MainView.swift */,
 				A8A20B562837907D00C7401B /* CartRacingView.swift */,
 				A89D0941267B77C800C1FB66 /* AwardsView.swift */,
 				A8E1B482267B7972005E98AA /* GradientRectangles.swift */,
 				A8E1B484267B7978005E98AA /* PathView.swift */,
 				A8E1B480267B7967005E98AA /* CurvesView.swift */,
-				78160BD82A49F8A700C08769 /* FourthAchieveView.swift */,
+				7850E1C42A4B196300E7A650 /* Four Achievement */,
 				A89D0934267B76D600C1FB66 /* Assets.xcassets */,
 				A89D0939267B76D600C1FB66 /* Info.plist */,
 				A89D0936267B76D600C1FB66 /* Preview Content */,
@@ -166,12 +186,16 @@
 				A8E1B481267B7967005E98AA /* CurvesView.swift in Sources */,
 				A89D0942267B77C800C1FB66 /* AwardsView.swift in Sources */,
 				A89D0933267B76D400C1FB66 /* MainView.swift in Sources */,
+				7850E1C12A4B0FE700E7A650 /* ChakrasView.swift in Sources */,
+				7850E1C62A4B1ECB00E7A650 /* FingersView.swift in Sources */,
 				A8E1B485267B7979005E98AA /* PathView.swift in Sources */,
 				7827B95E2A4A1E3400C99603 /* PersonView.swift in Sources */,
 				A89D0931267B76D400C1FB66 /* AwardsCollectionAppApp.swift in Sources */,
+				7850E1BB2A4AF6FE00E7A650 /* ChakraView.swift in Sources */,
 				A89D0940267B777E00C1FB66 /* StarterView.swift in Sources */,
 				A8E1B483267B7972005E98AA /* GradientRectangles.swift in Sources */,
 				78160BD92A49F8A700C08769 /* FourthAchieveView.swift in Sources */,
+				7850E1C32A4B127E00E7A650 /* CircleAndTriangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

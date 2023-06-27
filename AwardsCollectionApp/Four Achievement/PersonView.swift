@@ -16,12 +16,9 @@ struct PersonView: View {
             
             //3/10 макс размера
             let nearLine = minimumSize * 0.3
-            
-            // 7/10 макс размера
-            let farLine = minimumSize - nearLine
-            
             //середина
             let middle = minimumSize / 2
+            //costume
             Path { path in
                 path.addRoundedRect(
                     in: CGRect(
@@ -32,6 +29,7 @@ struct PersonView: View {
                     ),
                     cornerSize: CGSize(width: width * 0.7, height: height * 0.7)
                 )
+                
             }
             .fill(.white)
             //MARK: - sheya
@@ -45,6 +43,7 @@ struct PersonView: View {
                     ),
                     cornerSize: CGSize(width: width, height: height)
                 )
+                
             }
             .fill(Color(red: 0.89, green: 0.65, blue: 0.3))
             //MARK: - Hands
