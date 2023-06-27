@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MainView: View {
     @State private var awardIsShowing = false
-    
+    @State private var angle = 0.0
     var body: some View {
         VStack {
             Button(action: buttonAction) {
@@ -25,6 +25,16 @@ struct MainView: View {
             if awardIsShowing {
                 FourthAchieveView()
                     .frame(width: 400, height: 400)
+                    .rotationEffect(.degrees(angle))
+                    .onAppear {
+                        withAnimation(
+                            Animation
+                                .linear(duration: 5)
+                                .repeatForever(autoreverses: false)
+                        ) {
+                            angle = 360
+                        }
+                    }
                     .transition(.customTransition)
             }
             

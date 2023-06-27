@@ -18,7 +18,7 @@ struct ChakraView: View {
             
             ForEach(0..<3) { iteration in
                 Rectangle()
-                    .stroke(lineWidth: 1)
+                    .stroke(lineWidth: 0.5)
                     .fill(
                         LinearGradient(
                             gradient: Gradient(colors: [firstColor, secondColor]),
