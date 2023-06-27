@@ -59,9 +59,9 @@ struct CircleAndTriangle: View {
             
             //MARK: - Triangle
             Path { path in
-                path.move(to: CGPoint(x: middle, y: farLine * 1.02))
-                path.addLine(to: CGPoint(x: nearLine, y: nearLine * 1.3))
-                path.addLine(to: CGPoint(x: farLine , y: nearLine * 1.3))
+                path.move(to: CGPoint(x: middle, y: farLine * 1.15))
+                path.addLine(to: CGPoint(x: nearLine * 0.75, y: nearLine * 1.17))
+                path.addLine(to: CGPoint(x: farLine * 1.1 , y: nearLine * 1.17))
                 path.closeSubpath()
             }
             .fill(
@@ -84,9 +84,9 @@ struct CircleAndTriangle: View {
             )
             //stroke triangle
             Path { path in
-                path.move(to: CGPoint(x: middle, y: farLine * 1.02))
-                path.addLine(to: CGPoint(x: nearLine, y: nearLine * 1.3))
-                path.addLine(to: CGPoint(x: farLine , y: nearLine * 1.3))
+                path.move(to: CGPoint(x: middle, y: farLine * 1.15))
+                path.addLine(to: CGPoint(x: nearLine * 0.75, y: nearLine * 1.17))
+                path.addLine(to: CGPoint(x: farLine * 1.1 , y: nearLine * 1.17))
                 path.closeSubpath()
             }
             .stroke(Color(red: 0.99, green: 0.77, blue: 0.59), lineWidth: 2)
