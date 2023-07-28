@@ -16,10 +16,11 @@
 Третий экран отображает все награды
 
 
-<img width="250" alt="Снимок экрана 2023-07-27 в 18 04 35" src="https://github.com/IgorJu/AwardsCollectionApp.SUI/assets/127942402/e041d6f7-7a9f-4a69-bc89-2aadbfe15be5">
-<img width="250" alt="Снимок экрана 2023-07-27 в 18 04 51" src="https://github.com/IgorJu/AwardsCollectionApp.SUI/assets/127942402/01400ec1-6547-47ba-94b0-bf2573d2ec96">
-<img width="250" alt="Снимок экрана 2023-07-27 в 18 05 11" src="https://github.com/IgorJu/AwardsCollectionApp.SUI/assets/127942402/2b74d898-70a6-45b8-bba4-9ad872b15689">
+<img width="300" alt="Снимок экрана 2023-07-28 в 18 09 27" src="https://github.com/IgorJu/AwardsCollectionApp.SUI/assets/127942402/2e023642-6ab3-4b2b-981a-93ed7e14a98f">
 
+<img width="300" alt="Снимок экрана 2023-07-28 в 18 09 39" src="https://github.com/IgorJu/AwardsCollectionApp.SUI/assets/127942402/2068f7c2-eb7b-450f-a108-72896e07114f">
+
+<img width="300" alt="Снимок экрана 2023-07-28 в 18 09 46" src="https://github.com/IgorJu/AwardsCollectionApp.SUI/assets/127942402/2308b9f4-b389-468a-a3fa-27e89c9a3e05">
 
 
 
